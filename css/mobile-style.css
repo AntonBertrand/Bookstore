@@ -1,0 +1,120 @@
+
+@media only screen and (max-width: 375px) {
+    .section-4 .card {
+      width: 18em;
+    }
+  }
+
+@media only screen and (max-width: 425px) {
+
+    .section-2.cover {
+        background-position: 0vmin 0vmin;
+    }
+
+    .section-3 .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 468px)  {
+    header img {
+        width:75%;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section-1 img {
+        display: none;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        box-shadow: none;
+        font-size: 1.2rem;
+    }
+
+    .section-1 .row .col-md-6 .panel h1 {
+        text-align: center;
+        padding-top: 100px;
+
+    }
+
+    header {
+        overflow: hidden;
+    }
+
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    header h6 {
+        margin-top: 2rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+        padding: 10px;
+    }
+
+    .section-1 .row .col-md-6 {
+        display: flex;
+    }
+
+    .section-1 .row .col-md-6 .pray img{
+        height: 100%;
+        width: 100%;
+    }
+
+    
+    .section-2.cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .purchase h1, p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1{
+        font-size: 2rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3  .col-md-12 h1 { 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .section-4 .team {
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .section-4 .card {
+      width: 20em;
+    }
+  }
+
+
+  @media only screen and (max-width: 1440px) {
+    .section-1 .pray img {
+      height: 700px;
+    }
+  }
